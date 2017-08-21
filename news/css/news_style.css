@@ -119,8 +119,10 @@
 }
 .main .news_list .news_item dd.category span {
 	font-size: 14px;
+/*
 	background: url(../img/cate_bg.png) left center no-repeat;
 	padding-left: 20px;
+*/
 	padding-top: 2px;
 }
 .main .news_list .news_item dd.txt {
