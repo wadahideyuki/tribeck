@@ -1,0 +1,623 @@
+@charset "UTF-8";
+
+a:link{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited{
+	color: #CCCCCC;
+	text-decoration: underline;
+}
+#container {
+	width: 100%;
+}
+.contents {
+	width: 1000px;
+	margin: 0 auto;
+}
+#main_visual {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 710px;
+	overflow: hidden;
+	z-index: 0;
+	display:none;
+}
+.ie6 #main_visual {
+	display: block;
+}
+#main_container {
+	position: absolute;
+	left: 50%;
+}
+#main_container .inner {
+	position: absolute;
+	left: -627px;
+	width: 1254px;
+	height: 600px;
+	overflow: hidden;
+}
+#main_container ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#main_container li {
+	float: left;
+}
+#main_container ol {
+	position: absolute;
+	bottom: 15px;
+}
+#main_container ol li {
+	margin: 0 6px;
+	list-style: none;
+	cursor: pointer;
+	float: left;
+	position: relative;
+}
+/*#main_container ol li img { position:absolute; left:0; top:0; }*/
+#main_container ol li img.pfa_on {
+	display: none;
+}
+#pfa_prev {
+	position: absolute;
+	top: 280px;
+	left: 70px;
+	cursor: pointer;
+}
+#pfa_next {
+	position: absolute;
+	top: 280px;
+	right: 70px;
+	cursor: pointer;
+}
+
+.s_btn_left:hover, .s_btn_right:hover{
+	opacity:0.7;
+	filter: alpha(opacity=70);        /* ie lt 8 */
+	-ms-filter: "alpha(opacity=70)";  /* ie 8 */
+	-moz-opacity:0.7;                 /* FF lt 1.5, Netscape */
+	-khtml-opacity: 0.7;              /* Safari 1.x */
+}
+#recommend {
+	margin-top: 590px;
+	margin-bottom: 50px;
+}
+#recommend h1 {
+	text-align: left;
+	margin-bottom: 15px
+}
+#banners {
+	padding: 10px 5px 10px 5px;
+	width: 990px;
+	background-color: #FFF;
+	overflow: hidden;
+}
+.ie6 #banners {
+	padding: 10px 0 0 0;
+	width: 1000px
+}
+#banners li {
+	float: left;
+	margin: 0 5px;
+}
+#banners li.col1 {
+	width: 188px;
+}
+#banners li.col2 {
+	width: 386px;
+}
+#banners li.col3 {
+	width: 584px;
+}
+#banners li.col4 {
+	width: 782px;
+}
+#banners li.col5 {
+	width: 980px;
+}
+#channelSubaru {
+	width: 188px;
+	height: 166px;
+	background-color: #000;
+}
+#csPlayer {
+	display: none;
+	width: 188px;
+	height: 127px;
+}
+#csPlayer iframe{
+	width: 100%;
+	height: 100%;
+}
+#information {
+	width: 1000px;
+	margin: 0 auto;
+	border-top: 1px solid #00306e;
+	padding-bottom: 80px;
+}
+.ie6 #information, .ie7 #information {
+	padding-bottom: 28px;
+}
+#information dl{
+	display: table;
+	width: 100%;
+	box-sizing: border-box;
+	border-top: 1px solid #358cc3;
+	padding: 5px 0 5px 0;
+}
+#information dl:last-child{
+	border-bottom: 1px solid #00306e;
+	box-shadow: 0px 1px #358cc3;
+}
+#information dt {
+	display: table-cell;
+	width: 120px;
+	border-right: 1px solid #358cc3;
+	box-sizing: border-box;
+}
+#information dd {
+	font-size: 14px;
+	width: 880px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+}
+#information dd em{
+	display: inline-block;
+	border-right: 1px solid #358cc3;
+	vertical-align: top;
+	padding: 0 15px 0 5px;
+margin-right: 10px;
+
+}
+#information h2{
+	padding-bottom: 10px;
+}
+#information dd li{
+	border-bottom: 1px dotted #358cc3;
+	padding: 7px 0 5px 0;
+	color: #FFFFFF;
+}
+#information dd li:last-child{
+	border: none;
+}
+#information dd .cate{
+	width: 80px;
+padding-left: 20px;
+margin-left: 5px;
+background: url(/news/img/cate_bg.png) left center no-repeat;
+
+}
+
+#information dd li em:last-child{
+	border: none;
+}
+#info_body {
+	float: left;
+	margin-top: 16px;
+	width: 700px;
+	height: 15px;
+	overflow: hidden;
+	position: relative;
+}
+#info_body ul {
+	position: absolute;
+}
+#info_body li {
+	margin-bottom: 10px;
+}
+#info_body a {
+	color: #036ec0;
+}
+#infoArrowUp, #infoArrowBottom {
+	position: absolute;
+	left: 490px;
+	cursor: pointer;
+}
+#infoArrowUp {
+	top: 3px;
+}
+#infoArrowBottom {
+	bottom: 3px;
+}
+#info_btns {
+	margin-top: 12px;
+	float: right;
+}
+#info_btns img {
+	margin-left: 8px;
+}
+
+/* #subinfo
+-----------------------*/
+#subinfo {
+	width: 994px;
+	margin:0 auto 85px;
+	padding: 3px;
+}
+	#subinfo dt {
+		float: left;
+		width: 90px;
+	}
+	#subinfo dd {
+		float: left;
+		width: 904px;
+	}
+
+
+/* #supportService
+-----------------------*/
+#supportService {
+	margin-bottom: 70px;
+	position:relative;
+}
+	#supportService .tab-wrap{
+		position:absolute;
+		top:-34px;
+		left:-9999px;
+	}
+	#supportService .active .tab-wrap.loaded{
+		top:-34px;
+		left:0;
+		width:100%;
+		min-width:1000px;
+	}
+	#supportService .active .tab-wrap ul{
+		width: 521px;
+		height: 34px;
+		margin: 0 auto;
+	}
+		#supportService .active .tab-wrap li{
+			float: left;
+			width: 260px;
+			padding-top: 9px;
+			text-align: center;
+		}
+		
+		/* タブ：ご購入サポート */
+		#supportServiceTab1 {
+			background: url(/img/bg_ss_tab1.png) no-repeat center top;
+		}
+		
+		/* タブ：アフターサービス */
+		#supportServiceTab2 {
+			background: url(/img/bg_ss_tab2.png) no-repeat center top;
+		}
+		
+		
+		
+		
+	/* #support
+	-----------------------*/
+	#support {
+		/*hidden*/
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		overflow:hidden;
+	}
+	#support.active{
+		/*visible*/
+		margin:auto;
+		overflow:visible;
+		
+		width: 100%;
+		min-width:1000px;
+		background: url(/img/bg_suport.png) no-repeat center top;
+		height: 236px;
+	}
+		#support.active .ss_tab2{
+			cursor:pointer;
+		}
+		
+		#support .contents li {
+			float: left;
+			width: 250px;
+			height: 236px;
+		}
+		#support_catalog {
+			background: url(/img/catalogue.png) no-repeat center top;
+			text-align: center;
+		}
+		#support_catalog img {
+			margin: 0 5px;
+		}
+		#support_catalog div {
+			padding-top: 172px;
+			width: 125px;
+		}
+		#support_catalog .left {
+			float: left;
+			text-align: right;
+		}
+		#support_catalog .right {
+			float: right;
+			text-align: left;
+		}
+		
+	/* #service
+	-----------------------*/
+	#service {
+		/*hidden*/
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		overflow:hidden;
+	}
+	#service.active{
+		/*visible*/
+		margin:auto;
+		overflow:visible;
+		
+		width: 100%;
+		min-width:1000px;
+		background: url(/img/bg_service.png) no-repeat center top;
+		height: 236px;
+	}
+		#service.active .ss_tab1{
+			cursor:pointer;
+		}
+	
+		#service #service_navi {
+			width: 1000px;
+		}
+		#service #service_navi li {
+			float: left;
+			padding-top: 125px;
+			width: 333px;
+			height: 66px;
+			text-align: center;
+		}
+		#service_inspect {
+			background: url(/img/inspect.png) no-repeat center top;
+		}
+		#service_moving {
+			background: url(/img/moving.png) no-repeat center top;
+		}
+		#service_prep {
+			background: url(/img/prep.png) no-repeat center top;
+		}
+		#service_menu {
+			width: 570px;
+			margin: 0 auto;
+		}
+		#service_menu li {
+			float: left;
+			width: 285px;
+			text-align: center;
+			padding: 0;
+		}
+		#service_menu li a {
+			display: inline-block;
+			padding: 14px 0;
+		}
+		.ie6 #service_menu li a, .ie7 #service_menu li a {
+			display: inline;
+			zoom: 1;
+		}
+
+
+
+#morefun {
+}
+#morefun h1, #morecontents h1 {
+	margin-bottom: 15px;
+}
+#morefun dl{
+	text-align: center;
+	overflow: hidden;
+}
+#morefun dt{
+	padding-bottom: 30px;
+	border-bottom: 1px solid #00306e;
+}
+#morefun dd{
+	padding-top: 30px;
+	border-top: 1px solid #33669a;
+}
+#morefun dl ul{
+	margin:0 -10px;
+	letter-spacing: -0.5em;
+}
+#morefun dl li{
+	display: inline-block;
+	letter-spacing: normal;
+	width: 33.3333%;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+#morefun dl a{
+	display: inline-block;
+	font-size: 14px;
+	text-align: left;
+	line-height: 1.57;
+	letter-spacing: -0.5em;
+	text-decoration: none;
+}
+#morefun dl a > *{
+	display: inline-block;
+	vertical-align: middle;
+	letter-spacing: normal;
+}
+#morefun dl a span{text-decoration: underline;}
+#morefun dl a:hover span{text-decoration: none;}
+
+#morefun dt a{
+	background-color: #fff;
+	width: 100%;
+	padding: 10px;
+	color: #036ec0;
+	box-sizing: border-box;
+}
+#morefun dt li:nth-child(3) a span{padding-left: 45px;}
+#morefun dt a span{padding-left: 15px;}
+#morefun dd li:nth-child(1){text-align: left;}
+#morefun dd li:nth-child(3){text-align: right;}
+#morefun dd a span{padding-left: 10px;}
+#morefun dd a span:after {
+	content: "";
+	display: inline-block;
+	background: url(../common/img/icon_blank.png) no-repeat;
+	width: 16px;
+	height: 13px;
+	margin-left: 5px;
+}
+
+
+
+
+
+#morecontents {
+	float: right;
+	width: 340px;
+}
+#morecontents_fb {
+	height: 200px;
+	background-color: #fff;
+	margin-bottom: 27px;
+}
+#morecontents_banner li {
+	float: left;
+	margin-right: 10px;
+}
+#morecontents_banner li.last {
+	margin-right: 0;
+}
+
+/* マイ スバル */
+#foot_navi nav h1.owner {
+	margin-top:25px;
+}
+
+#foot_navi nav li {
+	margin-bottom: 10px;
+}
+#foot_navi nav a:link {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+#foot_navi nav a:visited {
+	color: #CCCCCC;
+	text-decoration: underline;
+}
+#foot_navi nav a:hover {
+	text-decoration: none;
+}
+
+
+.scroller{
+	position:relative;
+	width:1000px;
+	margin:0 auto;
+	margin-top: 610px;
+	margin-bottom:30px;
+}
+.banner_frame{
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+}
+
+.s_btn_left, .s_btn_right, .s_banner{
+	cursor:pointer;
+}
+
+.s_banner{
+	position:relative;
+}
+
+.scroller .s_btn_left, .scroller .s_btn_right, .scroller .mask, .scroller .banner_frame, .scroller li{
+	float:left;
+}
+.scroller li, .scroller ul, .scroller .s_btn_right{
+	margin-left:9px;
+}
+
+.scroller li:first-child{
+	margin-left:0;
+}
+
+.scroller li:first-child{
+	margin-left:0;
+}
+.mv_container li{
+	float:left;
+}
+.scroller .mask{
+	width:947px;
+	overflow:hidden;
+}
+
+.balloon{
+	position: absolute;
+	display:none;
+}
+.balloon_prev{
+	top: 232px;
+	left: 70px;
+}
+.balloon p{
+	background:url(/images/balloon_bg.png);
+	color:#FFF;
+	padding:10px;
+}
+
+.balloon .bottom{
+	font-size:0;
+}
+
+.balloon_prev .bottom{
+	margin-left:10px;
+}
+
+.balloon_next .bottom{
+	margin-right:10px;
+}
+
+.balloon_next {
+	top: 232px;
+	right: 70px;
+	text-align:right;
+}
+
+.balloon_banner{
+	text-align:center;
+	top:-48px;
+	left:0;
+}
+.balloon_banner p{
+	white-space:nowrap;
+}
+
+#mv_text{
+	display:none;
+}
+
+
+#mv_cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 710px;
+	background:#FFF;
+	opacity:0.0;
+	filter: alpha(opacity=0);        /* ie lt 8 */
+	-ms-filter: "alpha(opacity=0)";  /* ie 8 */
+	-moz-opacity:0.0;                 /* FF lt 1.5, Netscape */
+	-khtml-opacity: 0.0;              /* Safari 1.x */
+	display:none;
+}
+
+
+
+

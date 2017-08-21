@@ -1,0 +1,271 @@
+<!doctype html>
+<!--[if lt IE 7 ]> 
+<html class="ie6" lang="ja" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml">
+<![endif]-->
+<!--[if IE 7 ]>
+<html class="ie7" lang="ja" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="ie8" lang="ja" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ja" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>SUBARU Confidence in motion オフィシャルWebサイト</title>
+<meta name="description" content="SUBARU（スバル）の自動車ブランドオフィシャルサイト。スバルがご提供する各車の詳細情報やキャンペーン情報、お近くのスバル販売店の検索、カタログ請求、見積りシミュレーターなどのサービスをご利用いただけます。" />
+<meta name="keywords" content="SUBARU,スバル,アイサイト,SUBARUの軽,富士重工業" />
+<meta name="viewport" content="width=1200">
+
+<!--#include virtual="/ssi/meta.html" -->
+
+<!-- Rtorster-->
+<script type="text/javascript" src="//js.rtoaster.jp/Rtoaster.js"></script>
+<script type="text/javascript">
+Rtoaster.init("RTA-17c5-6a56650a4f5b");
+Rtoaster.track();
+</script>
+
+<!-- Rtorster-->
+
+
+<!-- スマホサイト判定 -->
+<script type="text/javascript" src="/common/js/subaru-utility.js"></script>
+<script type="text/javascript">
+(function (){
+var ua = navigator.userAgent.toLowerCase();
+var param =	SUBARU_UTILITY.getParameter('viewmode')
+	, viewmode = SUBARU_UTILITY.getCookie('viewmode');
+	if(ua.indexOf('android') != -1 || ua.indexOf('ipad') != -1 || ua.indexOf('ipod') != -1 || ua.indexOf('iphone') != -1) {
+		if ( param == "p" ) {
+			SUBARU_UTILITY.setCookie('viewmode', 'pc',false);
+			var viewmode = SUBARU_UTILITY.getCookie('viewmode');
+		};
+		if ( !viewmode || viewmode =="s" ) {
+			location.href="https://sp.subaru.jp/";
+		}
+	}else{
+		if ( param == "s" ) {
+			location.href="https://sp.subaru.jp/";
+		};
+	}
+}());
+
+</script>
+<!-- スマホサイト判定 -->
+
+<meta property="og:site_name" content="SUBARU Confidence in motion オフィシャルWebサイト">
+<meta property="og:title" content="SUBARU Confidence in motion オフィシャルWebサイト">
+<meta property="og:description" content="SUBARU（スバル）の自動車ブランドオフィシャルサイト。スバルがご提供する各車の詳細情報やキャンペーン情報、お近くのスバル販売店の検索、カタログ請求、見積りシミュレーターなどのサービスをご利用いただけます。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.subaru.jp">
+<meta property="og:image" content="https://www.subaru.jp/common/img/head_logo_f.jpg">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://www.subaru.jp/rss/news.xml" />
+<!--#include virtual="/ssi/css.html" -->
+
+<link rel="stylesheet" href="css/top.css?170714" /><!-- ページ個別のCSS -->
+
+<!--[if lt IE 9]>
+<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+</head>
+
+<body id="top">
+
+<!-- #container-->
+<div id="container">
+
+	<section id="main_visual">
+	<!--#include virtual="/ssi/top_pfa.html?date=170622"-->
+	</section>
+	
+	
+   <noscript>
+	<div style="position:absolute; left:50%; margin-left:-627px; top:200px; text-align:center;">
+ <a href="/impreza/impreza/" onclick="VL_Send('aak_0500');"><img src="/img/pfa_impreza201609.jpg?date=160901" alt="" height="600" width="1254"></a><br>
+<br>
+	<a href="javascript:void(0)" onclick="VL_Send('aak_0600');"><img src="/img/banner_impreza201609.jpg?date=160901" width="180" height="100" alt=""/></a>
+   <a href="javascript:void(0)" onclick="VL_Send('aak_0601');"><img src="/img/banner_hvts201607.jpg?date=160916" width="180" height="100" alt=""/></a>
+   <a href="javascript:void(0)" onclick="VL_Send('aak_0602');"><img src="/img/banner_legacyoutback201609.jpg?date=160908" width="180" height="100" alt=""/></a>
+   <a href="javascript:void(0)" onclick="VL_Send('aak_0603');"><img src="/img/banner_legacyb4201609.jpg?date=160908" width="180" height="100" alt=""/></a>
+   <a href="javascript:void(0)" onclick="VL_Send('aak_0604');"><img src="/img/banner_crossover7_sp.jpg?date=160902" width="180" height="100" alt=""/></a>
+    </div>
+				
+   </noscript>
+	<!-- #head -->
+	<!--#include virtual="/ssi/head_new.html"-->
+	
+	<noscript><div style="height: 200px"></div>
+	</noscript>
+	<!-- /#head -->
+
+	<!-- おすすめコンテンツ -->
+	<section id="recommend" class="contents">
+		<h1><img src="/img/h_recommend.png" width="169" height="18" alt=""></h1>
+		<article id="banners">
+			<!--#include virtual="/ssi/top_recommend_banners.html"-->
+		</article>
+
+	</section>
+	<!-- /おすすめコンテンツ -->
+	
+	<!--ニュース/お知らせ-->
+		<section id="information">
+		<!--#include virtual="/ssi/top_recommend_information.html"-->
+
+		</section>
+	<!-- /ニュース/お知らせ -->
+	
+	
+	<section id="supportService">
+		<div id="support" class="active png_bg">
+			
+			<div class="tab-wrap">
+				<ul id="supportServiceTab1" class="png_bg"><li class="ss_tab1"><a href="/purchase/" onclick="VL_Send('aak_0035');"><img class="btn" src="/img/btn_suport.png" width="156" height="21" alt="ご購入サポート"></a></li><li class="ss_tab2"><img src="/img/tab_service.png" width="128" height="16" alt="アフターサービス"></li></ul>
+			</div>
+			
+			<div class="contents">
+			<ul class="cf">
+			<li><a href="https://members.subaru.jp/purchase/simulation/index.php" onclick="VL_Send('aak_0032');"><img class="btn png" src="/img/estimate.png" width="250" height="236" alt="オンライン見積もり"></a></li>
+			<li><a href="https://ap.subaru.jp/search/dealer.html" onclick="VL_Send('aak_0033');"><img class="btn png" src="/img/dealer.png" width="250" height="236" alt="販売店検索"></a></li>
+			<li><a href="https://ap.subaru.jp/search/drivecar.html" onclick="VL_Send('aak_0034');"><img class="btn png" src="/img/try.png" width="250" height="236" alt="試乗車検索"></a></li>
+			<li id="support_catalog" class="png_bg cf">
+				<div class="left"><a href="https://members.subaru.jp/catalog/catalog_apply.php" onclick="VL_Send('aak_0075');"><img src="/img/btn_catalog1.png" width="80" height="21" alt="取り寄せる"></a></div>
+				<div class="right"><a href="/e-catalog/" onclick="VL_Send('aak_0076');"><img src="/img/btn_catalog2.png" width="80" height="21" alt="ダウンロード"></a></div>
+			</li>
+			</ul>
+			</div>
+		</div>
+		<div id="service" class="png_bg">
+			<div class="tab-wrap">
+				<ul id="supportServiceTab2" class="png_bg"><li class="ss_tab1"><img src="/img/tab_suport.png" width="113" height="16" alt="ご購入サポート"></li><li class="ss_tab2"><a href="/afterservice/" onclick="VL_Send('aak_0039');"><img class="btn" src="/img/btn_service.png" width="174" height="21" alt="アフターサービス"></a></li></ul>
+			</div>
+			
+			<div class="contents">
+			<ul id="service_navi" class="cf">
+			<li id="service_inspect" class="png_bg"><a href="/afterservice/check/" onclick="VL_Send('aak_0036');"><img src="/img/btn_detail.png" width="70" height="21" alt="詳しく"></a></li>
+			<li id="service_moving" class="png_bg"><a href="https://members.subaru.jp/tnst/form/index.php3" onclick="VL_Send('aak_0037');"><img src="/img/btn_detail.png" width="70" height="21" alt="詳しく"></a></li>
+			<li id="service_prep" class="png_bg"><a href="/afterservice/dealer/" onclick="VL_Send('aak_0038');"><img src="/img/btn_detail.png" width="70" height="21" alt="詳しく"></a></li>
+			</ul>
+			
+			<ul id="service_menu">
+			<li><a href="/afterservice/tnst/" onclick="VL_Send('aak_0077');"><img class="btn" src="/img/btn_manual.png" width="167" height="14" alt="取扱説明書ダウンロード"></a></li>
+			<li><a href="/afterservice/cddb/" onclick="VL_Send('aak_0078');"><img class="btn" src="/img/btn_update.png" width="285" height="12" alt="Gracenote CDDBアップデート"></a></li>
+			</ul>
+			</div>
+		</div>
+		<noscript>
+			
+		<div id="service" class="active png_bg">
+			<div class="tab-wrap">
+				<ul id="supportServiceTab2" class="png_bg"><li class="ss_tab1"><img src="/img/tab_suport.png" width="113" height="16" alt="ご購入サポート"></li><li class="ss_tab2"><a href="/afterservice/" onclick="VL_Send('aak_0039');"><img class="btn" src="/img/btn_service.png" width="174" height="21" alt="アフターサービス"></a></li></ul>
+			</div>
+			
+			<div class="contents">
+			<ul id="service_navi" class="cf">
+			<li id="service_inspect" class="png_bg"><a href="/afterservice/check/" onclick="VL_Send('aak_0036');"><img src="/img/btn_detail.png" width="70" height="21" alt="詳しく"></a></li>
+			<li id="service_moving" class="png_bg"><a href="https://members.subaru.jp/tnst/form/index.php3" onclick="VL_Send('aak_0037');"><img src="/img/btn_detail.png" width="70" height="21" alt="詳しく"></a></li>
+			<li id="service_prep" class="png_bg"><a href="/afterservice/dealer/" onclick="VL_Send('aak_0038');"><img src="/img/btn_detail.png" width="70" height="21" alt="詳しく"></a></li>
+			</ul>
+			
+			<ul id="service_menu">
+			<li><a href="/afterservice/tnst/" onclick="VL_Send('aak_0077');"><img class="btn" src="/img/btn_manual.png" width="167" height="14" alt="取扱説明書ダウンロード"></a></li>
+			<li><a href="/afterservice/cddb/" onclick="VL_Send('aak_0078');"><img class="btn" src="/img/btn_update.png" width="285" height="12" alt="Gracenote CDDBアップデート"></a></li>
+			</ul>
+			</div>
+		</div>
+			
+			
+		</noscript>
+		
+	</section>
+	
+	<div class="contents cf">
+		<section id="morefun">
+			<h1><img src="/img/h_morefun.png" width="167" height="14" alt="More Fun SUBARU"></h1>
+			<dl>
+				<dt>
+					<ul>
+						<li>
+							<a href="https://www.subaru.jp/yourstorywith/" onclick="VL_Send('aak_0040');">
+								<img class="btn png" src="/img/morefun01.png" width="147" height="94" alt="Yourstorywithあなたとクルマの物語各ストーリーはこちら" />
+								<span>あなたとクルマの物語<br>各ストーリーはこちら</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.subaru.jp/about/technology" onclick="VL_Send('aak_0041');">
+								<img class="btn png" src="/img/morefun02.png" width="147" height="94" alt="スバルのクルマづくり" />
+								<span>SUBARU Engineering<br>SUBARUのクルマづくり</span>
+							</a>
+						</li>
+						<li>
+							<a href="/appli/" onclick="VL_Send('aak_0042');">
+								<img class="btn png" src="/img/morefun03.png" width="147" height="94" alt="スバルのスマホアプリ" />
+								<span>SUBARUの<br>スマホアプリ</span>
+							</a>
+						</li>
+					</ul>
+				</dt>
+				<dd>
+					<ul>
+						<li>
+							<a href="https://members.subaru.jp/" target="_blank" onclick="VL_Send('aak_0043');">
+								<img class="btn png" src="/img/morefun04.png" width="106" height="45" alt="スバルWEBコミュニティ" />
+								<span><strong>＃スバコミ</strong><br>スバルWEBコミュニティ</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.subaru-msm.com" target="_blank" onclick="VL_Send('aak_0044');">
+								<img class="btn png" src="/img/morefun05.png" width="106" height="45" alt="モータースポーツ情報満載" />
+								<span><strong>SUBARU MOTOR SPORTS</strong><br>モータースポーツ情報満載</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.subaruonline.jp/" target="_blank" onclick="VL_Send('aak_0045');">
+								<img class="btn png" src="/img/morefun06.png" width="106" height="45" alt="オリジナルグッズが手に入る" />
+								<span><strong>SUBARU Online Shop</strong><br>オリジナルグッズが手に入る</span>
+							</a>
+						</li>
+					</ul>
+				</dd>
+			</dl>
+		</section>
+		
+
+	</div>
+	
+	<!-- #foot-->
+	<section id="foot" class="png_bg">
+	
+	<script type="text/javascript">
+    var ua = navigator.userAgent.toLowerCase(); 
+    if(ua.indexOf('android') != -1 || ua.indexOf('android') != -1 || ua.indexOf('ipad') != -1 || ua.indexOf('ipod') != -1 || ua.indexOf('iphone') != -1) {
+    document.write("<p style=\"background-color:#0F141A;padding:25px;text-align:center;margin:50px 0 0 0;\"><a id=\"modeSwitch1\" href=\"https://sp.subaru.jp/\" onclick=\"SUBARU_UTILITY.setCookie('viewmode', 's')\"><img src=\"/img/top/btn_smp.gif\" alt=\"スマートフォンサイトはこちらから\" style=\"display:block;margin:0 auto;\" /></a></p>");
+    }
+    </script>
+	</section>
+
+	<!-- foot-->
+
+	<!--#include virtual="/ssi/foot.html"-->
+</div>
+<!-- /#container-->
+
+<!--#include virtual="/ssi/js.html" -->
+<script src="/js/jquery.touchSwipe.min.js"></script>
+<script src="/js/top.js?150105"></script>
+
+
+<!--#include virtual="/ssi/unitag.html"-->
+
+<!-- Rtorster-->
+<script type="text/javascript">
+Rtoaster.recommendNow("rtoaster_top_osusume1");
+</script>
+<!-- Rtorster-->
+
+</body>
+</html>

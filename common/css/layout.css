@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+
+/*=========================================
+-: renew 2013
+=========================================*/
+html, body {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+}
+
+body {
+	font:13px/1.4 "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", sans-serif; /* モダンブラウザ */
+	*font-size: small; /* Win IE7,Win IE6 */
+	*font: x-small;  /* IE 5以下 */
+	color:#444444;
+	background:#00020b url(/common/img/bg.jpg) no-repeat center top;
+	/*background:#00020b url(/common/img/bg.jpg) no-repeat center top;*/
+	/*background:#01033e;*/
+}
+
+#container {
+	background-color:transparent;
+	font-size: 93%;
+	margin: 0px auto;
+	width: 1000px;
+	text-align: left;
+}
+#path {
+	display: none !important;
+}
+
+.footer-unitag img {
+	display: none;
+}
+
+.pankz{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.pankz li{
+	font-size: 14px;
+	display: inline-block;
+}
+.pankz li a{
+	color: #036EC0;
+	text-decoration: underline;
+}
+.pankz li a:hover{
+	text-decoration: none;
+}
+.pankz li a:visited{
+	color: #551A8B;
+	text-decoration: underline;
+}
+
+
+/*=========================================
+-: clearfix
+=========================================*/
+.clearfix,
+.layoutBox {
+	zoom: 1;
+}
+/* for IE5 Mac start \*//*/
+.clearfix,
+.layoutBox {
+	display: inline-table;
+}
+/*for IE5 Mac end */
+.clearfix:after,
+.layoutBox:after	{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/**
+ * micro clearfix 
+**/
+/* For modern browsers */
+.cf:before, .cf:after { content:""; display:table; }
+.cf:after { clear:both; }
+/* For IE 6/7 (trigger hasLayout) */
+.cf { zoom:1; }
+
+.clear { clear:both; }

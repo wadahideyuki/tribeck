@@ -1,0 +1,155 @@
+.wrap {
+	margin: 0 auto;
+}
+.main {
+    color: #fff;
+    font-size: 14px;
+}
+/* link */
+.main a {
+	color: #fff;
+	text-decoration: underline;
+	transition: opacity 0.6s;
+}
+.main a:hover {
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.6;
+}
+.main a:visited {
+	color: #ccc;
+	text-decoration: underline;
+}
+/* common */
+.main h1.title {
+	margin-bottom: 15px;
+}
+.main .lead {
+	margin-bottom: 35px;
+}
+.main a.blank {
+	background: url(/common/img/icon_blank.png) right center no-repeat;
+	padding-right: 20px;
+}
+/*　main_btn_area */
+.main .main_btn_area { 
+	position: relative;
+	margin-right: -20px;
+	padding-bottom: 40px;
+}
+ .main .main_btn_area .box {
+	background-color: rgba(255,255,255,0.1);
+ 	float: left;
+ 	width: 235px;
+	 height: 300px;
+	margin-right: 20px;
+ 	position: relative;
+ }
+ .main .main_btn_area .catalog {
+ }
+.main .main_btn_area h2 {
+	margin-bottom: 15px;	
+ }
+.main .main_btn_area .text {
+	padding: 0 10px;	
+ }
+.main .main_btn_area .text strong{
+	display: block;
+	font-size: 16px;
+}
+ .main .main_btn_area .catalog .catalog_post_hover img {
+ 	display: none;
+ }
+ .main .main_btn_area .catalog .catalogBtns {
+	display: block;
+	width: 101px;
+	text-align: center;
+	border: 1px solid #fff;
+	position: absolute;
+ 	bottom: 10px;
+}
+.main .main_btn_area .catalog .catalogBtns:hover{
+}
+.main .main_btn_area .catalog .catalog_post {
+left: 10px;
+}
+.main .main_btn_area .catalog .catalog_dl {
+right: 10px;
+}
+.main .main_btn_area .catalog .catalogBtns span{
+	background: url(../img/ico_arrow.png) left center no-repeat;
+	display: inline-block;
+	padding:8px 0 8px 15px;
+	font-size: 14px;
+	line-height: 1;
+}
+
+
+ .sub_btn_area {
+ 	margin-left: -30px;
+	_margin-left: -66px;
+	margin-right: -20px;
+	padding-bottom: 11px;
+ }
+ .sub_btn_area .box {
+ 	float: left;
+ 	width: 315px;
+	 height: 110px;
+ 	margin-left: 30px;
+ 	_magin-left: 15px;
+ 	margin-bottom: 5px;
+ }
+ .sub_btn_area .box .btn {
+ 	float: left;
+ 	margin-right: 13px;
+ }
+
+.sub_btn_area .box h2 {
+ 	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+ }
+.sub_btn_area .box h2 a{
+	text-decoration: none;
+}
+ .footer_btn_area {
+ 	margin-left: -33px;
+	_margin-left: -66px;
+	margin-bottom: 33px;
+ }
+ .footer_btn_area .box {
+	background-color:rgba(0,0,0,0.1);
+ 	float: left;
+ 	width: 334px;
+	height: 110px;
+	 padding: 20px 20px 0px;
+ 	margin-left: 30px;
+ 	_magin-left: 15px;
+ 	margin-bottom: 13px;
+	 box-sizing: border-box;
+ }
+ .footer_btn_area .grouplink {
+ }
+ .footer_btn_area .box .btn {
+	 margin-bottom: 5px;
+	 font-size: 16px;
+	 font-weight: bold;
+ }
+.footer_btn_area .box .btn a{
+	background: url(../img/ico_arrow.png) left center no-repeat;
+	display: inline-block;
+	padding-left: 15px;
+	line-height: 1;
+	text-decoration: none;
+}
+.footer_btn_area .text {
+ 	line-height: 1.4285;
+ }
+
+hr.line1{
+	display: block;
+	background-color: rgba(255,255,255,0.2);
+	margin-bottom: 40px;
+	padding-top: 1px;
+	border-top: 1px solid #00306e;
+}

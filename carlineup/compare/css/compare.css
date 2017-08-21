@@ -1,0 +1,113 @@
+#contents_head {
+	background:url(../images/bg_header.png) no-repeat left top;
+	width:1000px;
+	height:86px;
+	margin-bottom:15px;
+}
+
+#back_compare { text-align:right; padding-right:24px; padding-top:28px; }
+
+#main {
+	color:#000;
+	font-family:"ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Hiragino Kaku Gothic Pro", "ƒƒCƒŠƒI", Meiryo, Osaka, "‚l‚r ‚oƒSƒVƒbƒN", "MS PGothic", sans-serif;
+	line-height:160%;
+}
+#contents{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.odd {
+	background-color:#f0f0f0;
+}
+
+html > body table#spec .over th, html > body table#spec .over.odd th, .over {
+	background-color:#d7e1ee;
+}
+
+
+table#spec {
+	width:100%;
+	border-collapse:collapse;
+	border-spacing: 0;
+	background:#FFF;
+	/*border:solid 1px #21272c;
+	border-left:none;
+	border-bottom:none;*/
+}
+
+table#spec th, table#spec td {
+	padding:16px 10px 15px 10px;
+	vertical-align:top;
+}
+table#spec td { width:222px; }
+table#spec th {
+	/*width:248px;*/
+	background:#f7f7f7;
+	text-align:left;
+	padding:18px 10px 16px 10px;
+	font-weight:bold;
+	border-right:solid 4px #00316f;
+}
+table#spec .odd th {
+	background:#d5d5d5;
+}
+table#spec th.nonebg, .over th.nonebg {
+	/*background:#243342;*/
+}
+.br { border-right:solid 2px #00316f; }
+
+table#spec td#ph0, table#spec td#ph1, table#spec td#ph2 {
+	padding:0;
+}
+
+table#spec #link0, table#spec #link1, table#spec #link2 {
+	padding:10px;
+	text-align:center;
+}
+
+/*table#spec #link0 a, table#spec #link1 a, table#spec #link2 a {
+	color:#FFF;
+	text-decoration:none;
+	background:url(../images/icon_arrow_off.gif) no-repeat 0px 4px;
+	padding-left:15px;
+}
+table#spec #link0 a:hover, table#spec #link1 a:hover, table#spec #link2 a:hover {
+	text-decoration:underline;
+	background:url(../images/icon_arrow_on.gif) no-repeat 0px 4px;
+}*/
+
+table#spec ul {
+	margin-left:15px;
+}
+table#spec li {
+	list-style:circle;
+} 
+
+table#spec table {
+	width:100%;
+	font-size:80%;
+	background-color:#FFF;
+	border:solid 1px #46525c;
+	border-left:none;
+	line-height:140%;
+}
+table#spec table td  {
+	border-bottom:solid 1px #46525c;
+	border-left:solid 1px #46525c;
+	padding:6px;
+}
+table#spec table td.firstcell  {
+	background-color:#c9c9c9;
+}
+
+table#spec #link0, table#spec #link1, table#spec #link2 { padding-bottom:7px; padding-right:0px; }
+.linkBtn { display:block; background:url(/carlineup/compare/images/btn_link_off.png) no-repeat left top; color:#FFF; text-align:left; text-decoration:none; padding:10px 30px 10px 30px; }
+.linkBtn:hover { background:url(/carlineup/compare/images/btn_link_on.png) no-repeat left top; }
+
+@media print{
+	table#spec th, table#spec td {
+		background:#fff !important;
+		color: #000 !important;
+	}
+}

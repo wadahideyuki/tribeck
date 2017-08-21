@@ -1,0 +1,190 @@
+
+#footer {  /*background:url(/common/img/bg_footer.png) repeat-x;*/   padding: 0px; }
+.footerWrap #footer  {padding: 0; background: #000;}
+iframe[name="google_conversion_frame"]  {height: 0;position: absolute;}/* 変な隙間が生じる為、見た目上消す */
+#footer h1 {  border: 0; margin-left: 0; padding-left: 0; }
+
+footer { margin:0 auto; padding:45px 0px 0px 0px; }
+footer #pagetop { text-align:right;margin-right: 20px; }
+
+footer .inner {    
+	margin-top: 14px;
+    background: #111;
+    padding-top: 10px;
+}
+
+#footMenu { text-align: center;}
+#footMenu li { 
+	display: inline-block;
+	padding: 7px 25px;
+}
+#footMenu li a:link { color:#FFF; font-size:10px; text-decoration:underline; }
+#footMenu li a:visited { color:#CCC; text-decoration:underline; }
+#footMenu li a:hover { text-decoration:none; }
+#copyright  a:link { color:#FFF; font-size:10px; text-decoration:underline; }
+#copyright  a:visited { color:#CCC; text-decoration:underline; }
+#copyright  a:hover { text-decoration:none; }
+
+#copyright {  text-align:center; padding: 10px;font-size:14px; }
+
+
+/* 関連リンク削除 */
+#foot #footNavi {
+	display: none;
+}
+#foot img {
+	display: none;
+}
+#foot #pagetop img {
+	display: inline;
+}
+
+#footer{
+    background: #000;
+}
+/* サイトマップ */
+#foot_navi_sitemap { text-align:center; }
+#foot_navi_sitemap .inner {
+	/*background:url(/common/img/bg_footer_sitemap.png) no-repeat center top;*/
+	padding-top: 30px;
+}
+.ie6 #foot_navi_sitemap .inner, .ie7 #foot_navi_sitemap .inner { display:inline; zoom:1; }
+
+#foot_navi_sitemap{
+	text-align: center;
+    margin: 0 auto;
+	letter-spacing: -0.4em;
+	padding: 0px 10px;
+}
+#foot_navi_sitemap nav {
+	letter-spacing: normal;
+display: inline-block;
+       width: 14%;
+    margin: 0 1%;
+	box-sizing: border-box;
+    vertical-align: top;
+	text-align: left;
+}
+#foot_navi_sitemap nav li{
+}
+#foot_navi_sitemap nav li a{
+	font-size: 14px;
+}
+	#foot_navi_sitemap nav ul{
+		_display:inline;
+		list-style-position:outside;
+		margin-left: 5px;
+	}
+#foot_navi_sitemap nav h1 { 
+	background-color:#333;
+	width:auto;
+	color:#FFF; 
+	font-size:14px; 
+	font-weight:bold; 
+	margin-bottom:20px; 
+/*	border-bottom: 1px solid #333;*/
+	padding: 5px 8px;
+	border-radius: 5px;
+}
+
+/* マイ スバル */
+#foot_navi_sitemap nav h1.owner {
+	margin-top:25px;
+}
+
+#foot_navi_sitemap nav li { margin-bottom:10px; clear: both;}
+#foot_navi_sitemap nav li:first-child { font-weight: bold;}
+#foot_navi_sitemap a:link { color:#FFFFFF; text-decoration:underline; font-size: 14px; }
+#foot_navi_sitemap a:visited { color:#CCCCCC; text-decoration:none; }
+#foot_navi_sitemap a:hover { text-decoration:none; }
+
+
+/* 消費税のお知らせ
+-----------------------*/
+footer .tax-info{
+	padding:10px;
+	background:#FFF;
+	color:#C00;
+	margin:10px 0;
+}
+	footer .tax-info a{
+		color:#C00;
+		text-decoration:underline !important;
+	}
+	footer .tax-info a:hover{
+		text-decoration:none !important;
+	}
+	footer .tax-info .inner-title{
+		width:85px;
+		float:left;
+		font-weight:bold;
+	}
+	footer .tax-info .inner-txt{
+		overflow:hidden;
+		*zoom:1;
+	}
+
+/** footer sns ***/
+#footSns{
+	margin-top: 50px;
+}
+#footSns li a:link span { color:#FFF; font-size:14px; }
+#footSns li a:visited span { color:#CCC; }
+#footSns li a:hover span {  }
+#footSns ul{
+	background: #010822;
+	display: table;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+#footSns ul li{
+	text-align: center;
+	width: 25%;
+	display: table-cell;
+	border-right: 1px solid rgba(255,255,255,0.1);
+}
+#footSns ul li:last-child{
+	border: none;
+}
+
+#footSns ul li a{
+	display: block;
+}
+#footSns ul li a:hover{background-color: rgba(255,255,255,0.1)}
+#footSns ul li a span{
+	display: inline-block;
+	text-align: left;
+	padding: 30px 10px 30px 80px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#footSns ul li a span:after{
+	content: "";
+	display: inline-block;
+	background: url(../img/icon_blank.png) no-repeat ;
+	width: 16px;
+	height: 13px;
+	margin-left: 5px;
+}
+.footSnsYoutube a span{
+	background-image: url(../img/foot_youtube.png);
+}
+.footSnsFacebook a span{
+	background-image: url(../img/foot_facebook.png);
+}
+.footSnsTwitter a span{
+	background-image: url(../img/foot_twitter.png);
+}
+.footSnsInstagram a span{
+	background-image: url(../img/foot_instagram.png);
+}
+.iconBlank:after{
+	content: "";
+	display: inline-block;
+	background: url(../img/icon_blank.png) no-repeat ;
+	width: 16px;
+	height: 13px;
+	vertical-align: middle;
+	margin-left: 3px;
+}
