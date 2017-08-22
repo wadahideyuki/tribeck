@@ -18,35 +18,33 @@ h1.title {
 
 #information-contents {
 	padding-bottom: 60px;
-	margin-left: -20px;
+	margin-left: -36px;
 }
 .ie6 #information-contents {
 	margin-left: -40px;
 }
 
 .information-contents-inner {
-	padding-bottom: 5px;
+	padding-bottom: 60px;
 }
 
 #information-contents dl.pannel {
 	float: left;
-	width: 490px;
-	margin-left: 20px;
+	width: 482px;
+	margin-left: 36px;
 	overflow: hidden;
-	margin-bottom: 10px;
 }
 
 
 #information-contents dl dt.category-title {
-	padding-bottom: 5px;
-	margin-bottom: 8px;
-	background: url(../img/contents_shadow.png) center bottom no-repeat;
+	margin-bottom: 15px;
 }
 #information-contents dl dt.category-title span {
 	display: block;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
+}
+#information-contents dl dt.category-title span img{
+	width: auto;
+	height: auto;
 }
 
 #information-contents dl dd.category-contents {
@@ -57,17 +55,20 @@ h1.title {
 /* button */
 
 #information-contents ul.btn-list {
-	margin-right: -8px;
+	margin-right: -10px;
 }
 
 #information-contents ul.btn-list li {
-	width: 240px;
+	width: 154px;
+	height: 244px;
 	float: left;
-	margin-right: 8px;
-	margin-bottom: 8px;
+	margin-right: 10px;
 	background: url(/common/img/list_bg.png) left top repeat;
 	cursor: pointer;
 }
+#information-contents #campaign ul.btn-list li:nth-child(n+5),
+#information-contents #event ul.btn-list li:nth-child(n+5),
+#information-contents #channel ul.btn-list li:nth-child(n+4){display: none;}
 .ie6 #information-contents ul.btn-list li,
 .ie7 #information-contents ul.btn-list li {
 	background: none;
@@ -104,17 +105,20 @@ h1.title {
 #information-contents ul.btn-list li dl {
 	/*background: url(../img/btn_cnr_m.gif) left top no-repeat;*/
 	/*background-color: #85a1c2;*/
-	padding: 8px 11px 6px 11px; 
 }
 
 #information-contents ul.btn-list li dl dt {
-	float: left;
-	margin-right: 8px;
+}
+#information-contents ul.btn-list li dl dt img{
+	width: 100%;
+	height: 135px;
 }
 
 #information-contents ul.btn-list li dl dd {
 	overflow: hidden;
+	padding: 10px;
 	font-size: 14px;
+	line-height: 1.4285;
 }
 
 #information-contents ul.btn-list li dl dd a {
@@ -159,7 +163,7 @@ h1.title {
 /*** news ***/
 
 #information-contents dl#news dt span {
-	background-color: #e4ebf0;
+
 }
 #information-contents dl#news .none {
 	display: none !important;	
@@ -176,6 +180,7 @@ h1.title {
 
 #information-contents dl#news dd.category-contents {
 	background: url(/common/img/list_bg.png) left top repeat;
+	height: 244px;
 }
 .ie6 #information-contents dl#news dd.category-contents,
 .ie7 #information-contents dl#news dd.category-contents {
@@ -188,7 +193,6 @@ h1.title {
 }
 #information-contents dl#news dd.category-contents dl.news-list {
 	padding: 15px;
-	margin-bottom: 6px;
 }
 #information-contents dl#news dd.category-contents dl dt,
 #information-contents dl#news dd.category-contents dl dd {
@@ -235,7 +239,7 @@ h1.title {
 /*** campaign ***/
 
 #information-contents dl#campaign dt span {
-	background-color: #e4ebf0;
+
 }
 
 
@@ -248,12 +252,11 @@ h1.title {
 }
 
 #information-contents dl#event dt span {
-	background-color: #e4ebf0;
+
 }
 
 
 #information-contents dl#event ul.btn-list li dl dt img {
-	width: 90px;
 }
 
 
@@ -274,11 +277,10 @@ h1.title {
 }
 
 #information-contents dl#channel dt span {
-	background-color: #e4ebf0;
+
 }
 
 #information-contents dl#channel ul.btn-list li dl dt img {
-	width: 103px;
 }
 
 /**html #information-contents dl#channel ul.btn-list li dl dt {

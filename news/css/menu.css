@@ -1,6 +1,4 @@
-#contentsWrap {
-	background:#00033d url(/common/img/bg.jpg) no-repeat center top;
-}#contents{
+#contents{
 	padding-top: 40px;
 width: 1000px;
 margin: 0 auto;
@@ -20,7 +18,8 @@ ul {
 #container {
 	min-width: 1000px;
 	width: 100%;
-	background: #eee;
+	background: url(../../common/img/head_menu_bg.png) repeat-x;
+	background-position: 0px -10px;
 	padding: 0px 0 0;
 }
 /*PC menu

@@ -618,6 +618,8 @@ background: url(/news/img/cate_bg.png) left center no-repeat;
 	display:none;
 }
 
-
+.btn2:hover{
+	opacity: 0.8;
+}
 
 

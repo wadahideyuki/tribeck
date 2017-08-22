@@ -89,14 +89,14 @@
 
 /* link */
 .main a {
-	color: #68d7fc;
-	text-decoration: none;
-}
-.main a:hover {
-	color: #68d7fc;
+	color: #FFF;
 	text-decoration: underline;
 }
-.main a:visited {
-	color: #68d7fc;
+.main a:hover {
+	color: #FFF;
 	text-decoration: none;
+}
+.main a:visited {
+	color: #ccc;
+	text-decoration: underline;
 }

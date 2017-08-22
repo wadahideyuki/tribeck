@@ -113,16 +113,13 @@
 	font-size: 14px;
 }
 .main .news_list .news_item dd.category {
-	width: 120px;
+	width: 115px;
 	border-right: rgba(255,255,255,0.2) 1px solid;
     border-left: rgba(255,255,255,0.2) 1px solid;
 }
 .main .news_list .news_item dd.category span {
 	font-size: 14px;
-/*
-	background: url(../img/cate_bg.png) left center no-repeat;
-	padding-left: 20px;
-*/
+	padding-left: 10px;
 	padding-top: 2px;
 }
 .main .news_list .news_item dd.txt {
