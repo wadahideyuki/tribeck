@@ -63,6 +63,9 @@
 .main .main_btn_area .text {
 	padding: 0 10px;	
  }
+.main .main_btn_area a{
+	color: #FFF;
+}
 .main .main_btn_area .text strong{
 	display: block;
     font-size: 18px;
@@ -135,12 +138,14 @@ right: 10px;
  	padding-top: 5px;
 	font-size: 16px;
 	font-weight: bold;
- }
-.sub_btn_area .box h2 a{
-	text-decoration: none;
+	text-decoration: underline;
+}
+.sub_btn_area .box a:hover h2{
+	text-decoration: none;	
 }
 .sub_btn_area .box .text{
 	padding-right: 5px;
+	color: #FFFFFF;
 }
  .footer_btn_area {
  	margin-left: -33px;
@@ -168,14 +173,16 @@ right: 10px;
 	 font-weight: bold;
  }
 .footer_btn_area .box .btn span{
-	background: url(../img/ico_arrow.png) left center no-repeat;
 	display: inline-block;
-	padding-left: 15px;
 	line-height: 1;
-	text-decoration: none;
+	text-decoration: underline;
+}
+.footer_btn_area .box a:hover .btn span{
+	text-decoration: none;	
 }
 .footer_btn_area .text {
  	line-height: 1.4285;
+	color: #FFF;
  }
 
 hr.line1{
