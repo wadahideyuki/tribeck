@@ -95,10 +95,12 @@ a:visited{
 	margin-bottom: 15px
 }
 #banners {
-	padding: 10px 5px 10px 5px;
-	width: 990px;
-	background-color: #FFF;
+	padding: 10px 5px 0 5px;
+    width: 990px;
+    background-color: #FFF;
 	overflow: hidden;
+}
+#banners ul{
 }
 .ie6 #banners {
 	padding: 10px 0 0 0;
@@ -126,7 +128,6 @@ a:visited{
 #channelSubaru {
 	width: 188px;
 	height: 166px;
-	background-color: #000;
 }
 #csPlayer {
 	display: none;
@@ -470,7 +471,9 @@ background: url(/news/img/cate_bg.png) left center no-repeat;
 	height: 13px;
 	margin-left: 5px;
 }
-
+#morefun dl a:hover img{
+	opacity: 0.8;
+}
 
 
 
@@ -622,4 +625,40 @@ background: url(/news/img/cate_bg.png) left center no-repeat;
 	opacity: 0.8;
 }
 
+#banners li.col1 a{
+	font-size: 14px;
+	display: block;
+	background: #FFF;
+}
 
+#banners li.col1 .recomBox{
+	height: 150px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+#banners li.col1 a:link{
+	text-decoration: none;
+}
+#banners li.col1 a{
+	display: block;
+	color: #333;
+}
+#banners li.col1 a:visited{
+	color: #333;
+	text-decoration: none;
+}
+#banners li.col1 a:hover{
+	text-decoration: none;
+	opacity: 0.8;
+}
+#banners li.col1 a strong{
+	display: table-cell;
+    text-align: center;
+    width: 188px;
+    height: 38px;
+	padding-bottom: 4px;
+    vertical-align: middle;
+}
+#banners li.col1 a strong span{
+	display: block;
+}

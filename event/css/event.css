@@ -255,6 +255,10 @@ a:hover
 	margin-right: 12px;
 	margin-bottom: 10px;
 }
+.event-container .thumbnail img{
+	max-width: 140px;
+	height: auto;
+}
 .event-container .text-area
 {
 	float:left;

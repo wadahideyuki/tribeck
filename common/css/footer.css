@@ -129,6 +129,7 @@ footer .tax-info{
 	margin-top: 50px;
 }
 #footSns li a:link span { color:#FFF; font-size:14px; }
+
 #footSns li a:visited span { color:#CCC; }
 #footSns li a:hover span {  }
 #footSns ul{
@@ -150,6 +151,39 @@ footer .tax-info{
 
 #footSns ul li a{
 	display: block;
+	position: relative;
+	transition:all 0.5s ease;
+}
+#footSns ul li a:hover em{
+    bottom: 90px;
+	opacity: 1;
+	height: auto;
+}
+#footSns ul li a em{
+	opacity: 0;
+    text-decoration: none;
+    position: absolute;
+    padding: 20px 40px;
+    width: 90%;
+    margin: 0 0px;
+    background: rgba(0,0,0,0.9);
+	height: 0px;
+    bottom: 50px;
+    left: 5%;
+    box-sizing: border-box;
+	color: #FFF;
+	transition:all 0.2s ease;
+}
+#footSns ul li a em:after{
+	content: "";
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid rgba(0,0,0,0.9);
+    position: absolute;
+    bottom: -30px;
+    left: 47.5%;
+		
 }
 #footSns ul li a:hover{background-color: rgba(255,255,255,0.1)}
 #footSns ul li a span{

@@ -69,6 +69,14 @@ h1.title {
 #information-contents #campaign ul.btn-list li:nth-child(n+5),
 #information-contents #event ul.btn-list li:nth-child(n+5),
 #information-contents #channel ul.btn-list li:nth-child(n+4){display: none;}
+#information-contents #channel ul.btn-list li dl dt{
+	width: 154px;
+	overflow: hidden;
+}#information-contents #channel ul.btn-list li dl dt img{
+	height: 135px;
+	width: 240px;
+	margin-left: -45px;
+}
 .ie6 #information-contents ul.btn-list li,
 .ie7 #information-contents ul.btn-list li {
 	background: none;
@@ -80,10 +88,16 @@ h1.title {
 	background: none;
 	border: #003372 solid 1px;
 }
-/*
-#information-contents ul.btn-list li.hover {
+
+#information-contents ul.btn-list li.hover{
+	background: url(/common/img/list_bg_o.png) left top repeat;
+}
+#information-contents ul.btn-list li.hover img {
 	opacity: 0.5;
-}*/
+}
+#information-contents ul.btn-list li.hover a{
+	text-decoration: none;
+}
 
 #information-contents ul.btn-list li .cnr-top {
 	height: 3px;
@@ -172,10 +186,10 @@ h1.title {
 	display: none;
 }
 #information-contents dl#news a:link {
-	text-decoration: none;
+	text-decoration: underline;
 }
 #information-contents dl#news a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 #information-contents dl#news dd.category-contents {
