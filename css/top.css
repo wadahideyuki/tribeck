@@ -632,7 +632,7 @@ background: url(/news/img/cate_bg.png) left center no-repeat;
 }
 
 #banners li.col1 .recomBox{
-	height: 150px;
+	height: 280px;
 	box-sizing: border-box;
 	padding: 10px;
 }
@@ -655,7 +655,7 @@ background: url(/news/img/cate_bg.png) left center no-repeat;
 	display: table-cell;
     text-align: center;
     width: 188px;
-    height: 38px;
+    height: 60px;
 	padding-bottom: 4px;
     vertical-align: middle;
 	border-bottom: 1px solid #0069ad;
