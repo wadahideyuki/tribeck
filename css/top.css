@@ -658,7 +658,9 @@ background: url(/news/img/cate_bg.png) left center no-repeat;
     height: 38px;
 	padding-bottom: 4px;
     vertical-align: middle;
+	border-bottom: 1px solid #0069ad;
 }
-#banners li.col1 a strong span{
+#banners li.col1 a span{
+	padding-top: 7px;
 	display: block;
 }
