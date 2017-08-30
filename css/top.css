@@ -632,9 +632,8 @@ background: url(/news/img/cate_bg.png) left center no-repeat;
 }
 
 #banners li.col1 .recomBox{
-	height: 280px;
 	box-sizing: border-box;
-	padding: 10px;
+	padding: 10px 5px 20px 5px;
 }
 #banners li.col1 a:link{
 	text-decoration: none;
@@ -654,8 +653,10 @@ background: url(/news/img/cate_bg.png) left center no-repeat;
 #banners li.col1 a strong{
 	display: table-cell;
     text-align: center;
-    width: 188px;
-    height: 60px;
+       width: 188px;
+    height: 62px;
+    line-height: 1.3;
+    font-size: 15px;
 	padding-bottom: 4px;
     vertical-align: middle;
 	border-bottom: 1px solid #0069ad;
